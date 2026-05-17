@@ -10,7 +10,7 @@ En este repositorio te dejo todo lo necesario para que levantes tu primer cluste
 
 Antes de empezar, asegurate de tener instalado:
 
-1. **Docker**: El motor de contenedores que usaremos como driver. [Descargar aquí](https://www.docker.com/products/docker-desktop/).
+1. **Docker**: El motor de contenedores que usaremos como driver. [Descargar aquí](https://docs.docker.com/engine/install/).
 2. **Kubectl**: La herramienta de línea de comandos para interactuar con el cluster. [Instalación](https://kubernetes.io/docs/tasks/tools/).
 3. **Minikube**: La herramienta que nos permite correr K8s localmente. [Instalación](https://minikube.sigs.k8s.io/docs/start/).
 
@@ -32,5 +32,9 @@ kubectl get nodes
 ```
 
 ### 3. Desplegar la Aplicación
-En este repo te dejé un archivo llamado deployment.yaml. Ejecutalo para crear los Pods y el Servicio:
+En este repo te dejé dos archivo llamados **deployment.yaml** y **service.yaml** dentro de la carpeta **manifest**. Vamos a ejecutar lo siguiente para crear los Pods y el Servicio:
+```bash
+kubectl apply -f manifests/deployment.yaml
+kubectl apply -f manifests/service.yaml
+```
 
