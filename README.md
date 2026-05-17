@@ -32,9 +32,20 @@ kubectl get nodes
 ```
 
 ### 3. Desplegar la Aplicación
-En este repo te dejé dos archivo llamados **deployment.yaml** y **service.yaml** dentro de la carpeta **manifest**. Vamos a ejecutar lo siguiente para crear los Pods y el Servicio:
+En este repo te dejé dos archivo llamados **deployment.yaml** y **service.yaml** dentro de la carpeta **manifests/**. Vamos a ejecutar lo siguiente para crear los Pods y el Servicio:
 ```bash
 kubectl apply -f manifests/deployment.yaml
 kubectl apply -f manifests/service.yaml
 ```
 
+### 4. Verificamos que los pods se encuentren en **Running**
+Ejecutá el siguiente comando para verificar los estados de los Pods.
+```bash
+kubectl get pods
+```
+
+### 5. Acceder a la App
+Como estamos en local, necesitamos que Minikube nos dé una URL para ver nuestra app en el navegador:
+```bash
+minikube service landing-page-service
+```
