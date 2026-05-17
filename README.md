@@ -21,7 +21,7 @@ Antes de empezar, asegurate de tener instalado:
 ### 0. Clonar el repositorio
 Primero, traete el proyecto a tu máquina local y parate dentro de la carpeta:
 ```bash
-git clone [https://github.com/ssh-jmartinez/k8s-local.git](https://github.com/ssh-jmartinez/k8s-local.git)
+git clone https://github.com/ssh-jmartinez/k8s-local.git
 cd k8s-local
 ```
 
@@ -66,14 +66,17 @@ minikube service landing-page-service
 Cuando termines de jugar y quieras liberar espacio y memoria en tu compu, podés borrar la aplicación o directamente apagar el cluster:
 
 * **Borrar solo la app (manteniendo Minikube vivo):**
+
   ```bash
   kubectl delete -f manifests/
   ``` 
 * **Apagar el cluster (guarda el estado actual):**
+
   ```bash
   minikube stop
   ``` 
 * **Borrar el cluster por completo (libera todo el espacio):**
+
   ```bash
   minikube delete
   ``` 
