@@ -4,7 +4,7 @@
 
 También podés seguir este paso a paso viendo el video completo en YouTube:
 
-[![Ver tutorial en YouTube](https://img.youtube.com/vi/Ptk-hEBa4Tk/maxresdefault.jpg)](https://youtu.be/Ptk-hEBa4Tk)
+[![Ver tutorial en YouTube](./assets/video-yt.png)](https://youtu.be/Ptk-hEBa4Tk)
 
 📺 Video: https://youtu.be/Ptk-hEBa4Tk
 
