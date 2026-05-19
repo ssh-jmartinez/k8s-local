@@ -95,6 +95,4 @@ Cualquier sugerencia, reporte de bug o mejora es más que bienvenida a través d
 
 Podés encontrarme en mis redes para charlar sobre DevOps, Cloud o programación:
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/TU_USUARIO)
-[![Twitter/X](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/TU_USUARIO)
-[![Portfolio](https://img.shields.io/badge/Personal__Website-000000?style=for-the-badge&logo=about.me&logoColor=white)](https://TU_WEB.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/martinezbjavier/)
