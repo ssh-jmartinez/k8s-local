@@ -1,5 +1,15 @@
 # 🚀 Mi Primer Cluster de Kubernetes con Minikube
 
+## ▶️ Seguí este tutorial en YouTube
+
+También podés seguir este paso a paso viendo el video completo en YouTube:
+
+[![Ver tutorial en YouTube](https://img.youtube.com/vi/Ptk-hEBa4Tk/maxresdefault.jpg)](https://youtu.be/Ptk-hEBa4Tk)
+
+📺 Video: https://youtu.be/Ptk-hEBa4Tk
+
+---
+
 ¡Bienvenido! Si llegaste acá, es porque querés dejar de ver teoría y empezar a ensuciarte las manos con **Kubernetes**. 
 
 En este repositorio te dejo todo lo necesario para que levantes tu primer cluster local y despliegues una aplicación con balanceo de carga en menos de 10 minutos.
